@@ -29,6 +29,17 @@ A small multi-page site with:
 - Shared layout in `app/layout.js`
 - Use `Link` for navigation
 
+### Requirements Recap (Must Include)
+
+- Pages: Home, About, Contact
+- Home content: 1 intro section
+- About content: 2 distinct sections
+- Contact content: a simple form (no backend required)
+- Layout: shared header + footer across all pages
+- Navigation: active page is visually highlighted
+- Routing: file-based routes in `app/`
+- Navigation: `Link` used for all page links
+
 ### Success Checklist
 
 - ⬜ Routes work for all pages
@@ -61,6 +72,15 @@ A data page that:
 - Use server component for initial fetch
 - Use `fetch` with caching rules
 - Explain in comments whether page is SSG or SSR
+
+### Requirements Recap (Must Include)
+
+- Data source: public API
+- UI states: loading + error visible to user
+- Refresh: a user action that refetches data
+- Server component: initial fetch on the server
+- Caching: explicit cache rule in `fetch`
+- Rendering mode: clearly stated as SSG or SSR
 
 ### Success Checklist
 
@@ -95,6 +115,15 @@ A simple API with:
 - Use `NextResponse`
 - Validate request payload
 
+### Requirements Recap (Must Include)
+
+- API endpoints: GET and POST
+- UI: a form that submits to POST endpoint
+- UI: display API response on screen
+- Validation: invalid input shows an error
+- Routing: route handlers under `app/api/`
+- Responses: JSON via `NextResponse`
+
 ### Success Checklist
 
 - ⬜ GET route works
@@ -127,6 +156,14 @@ A page that:
 - Use `Image` component
 - Provide alt text for images (required by `Image`)
 
+### Requirements Recap (Must Include)
+
+- Images: rendered using `Image`
+- Sizing: width/height set so layout is stable
+- Metadata: title + description present
+- OG tags: Open Graph tags included
+- Alt text: provided for every image
+
 ### Success Checklist
 
 - ⬜ Images optimized
@@ -157,6 +194,15 @@ A small portfolio site with:
 - API route for form submit
 - SEO metadata on each page
 - Image optimization with `next/image`
+
+### Requirements Recap (Must Include)
+
+- Pages: Home, Projects, About, Contact (or 4+ pages total)
+- Layout: shared navigation across all pages
+- Data: at least one dynamic data page
+- API: contact form POSTs to an API route
+- SEO: metadata on every page
+- Images: optimized with `next/image`
 
 ### Success Checklist
 
